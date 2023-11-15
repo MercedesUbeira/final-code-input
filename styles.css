@@ -1,0 +1,40 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url('https://img.freepik.com/free-photo/beautiful-christmas-eve-concept-with-copy-space_23-2148703354.jpg?w=900&t=st=1699986928~exp=1699987528~hmac=c97a8e0b40b215aacf4c88056fe76fb17d7a8be1ec4660ba9b2c14655f8800b9');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  max-width: 80%;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better readability */
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#messageBox {
+  margin-top: 20px;
+  font-style: italic;
+}
